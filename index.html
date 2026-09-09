@@ -13,8 +13,10 @@
 <script>
 !function(f,b,e,v,n,t,s){
   if(f.fbq)return;
-  n=fbq=function(){
-    n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+  n=f.fbq=function(){
+    n.callMethod
+      ? n.callMethod.apply(n,arguments)
+      : n.queue.push(arguments);
   };
   if(!f._fbq)f._fbq=n;
   n.push=n;
@@ -28,49 +30,13 @@
   s.parentNode.insertBefore(t,s);
 }(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-/* Pixels */
-fbq('init', '28731073006486778');
-fbq('init', '1371937605042417');
-fbq('init', '1592528645597359');
-fbq('init', '932800896558530');
-fbq('init', '2247676566007842');
-fbq('init', '1369636221983144');
-fbq('init', '2285159045575464');
-fbq('init', '2299963727445871');
-fbq('init', '1596295451881960');
-
-/* Dispara PageView para todos os pixels inicializados */
+fbq('init', '1608217014438558');
 fbq('track', 'PageView');
 </script>
 
 <noscript>
   <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=28731073006486778&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1371937605042417&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1592528645597359&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=932800896558530&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2247676566007842&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1369636221983144&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2285159045575464&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2299963727445871&ev=PageView&noscript=1"
-  />
-  <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1596295451881960&ev=PageView&noscript=1"
-  />
+       src="https://www.facebook.com/tr?id=1608217014438558&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Meta Pixel Code -->
   <style>
